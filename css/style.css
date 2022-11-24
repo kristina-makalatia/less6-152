@@ -1,0 +1,77 @@
+.text {
+	font-family: 'Roboto';
+}
+.block1 {
+	width: 250px;
+	height: 250px;
+	background: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block2 {
+	width: 250px;
+	height: 250px;
+	background: red;
+}
+.block3 {
+	width: 250px;
+	height: 250px;
+	background: green;
+}
+.flex-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+/*flex-practice*/
+.container-wraper {
+	width: 1171px;
+	margin:  0 auto;
+	background: pink;
+}
+.text-wraper {
+	width: 771px;
+	margin:  0 auto;
+	background: lightblue;
+	text-align: center;
+}
+.block {
+	width: 371px;
+	height: 374px;
+	background: khaki;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.block-line1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+/*.size {
+	margin: 0 30px;
+}*/
+.blue-box {
+	width: 88px;
+	height: 88px;
+	background: #325DFF;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-block {
+	width: 251px;
+	background: yellow;
+	text-align: center;
+}
+.block-margin {
+	margin-bottom: 25px;
+}
+.section-bg {
+	background: #FAFAFA;
+}
